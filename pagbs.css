@@ -1,0 +1,24 @@
+.jumbotron {
+    animation: caida 0.7s 0.3s ease-out;
+   
+}
+
+.jumbotron p{
+    font-size: 4rem;
+}
+
+@keyframes caida {
+    0%{
+        transform: translateY(-80px) scaleY(0.8);
+    }
+    50%{
+        transform: translateY(16px) scaleY(0.2);
+    }
+    100%{
+        transform: translateY(0px) scaleY(1);
+    }
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
