@@ -22,3 +22,17 @@
 .btn:hover {
     transform: scale(1.05);
 }
+
+.circulo {
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.yo {
+    transform: translateX(-0.5em);
+}
